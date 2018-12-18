@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9068DA21A5952E006ADFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9068D921A5952E006ADFBB /* AppDelegate.swift */; };
+		EE9068DC21A5952E006ADFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9068DB21A5952E006ADFBB /* ViewController.swift */; };
+		EE9068DF21A5952E006ADFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9068DD21A5952E006ADFBB /* Main.storyboard */; };
+		EE9068E121A59532006ADFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9068E021A59532006ADFBB /* Assets.xcassets */; };
+		EE9068E421A59532006ADFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9068E221A59532006ADFBB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9068EB21A59532006ADFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9068CE21A5952E006ADFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9068D521A5952E006ADFBB;
+			remoteInfo = UIDynamicAnimtor;
+		};
+		EE9068F621A59532006ADFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9068CE21A5952E006ADFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9068D521A5952E006ADFBB;
+			remoteInfo = UIDynamicAnimtor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE9068D621A5952E006ADFBB /* UIDynamicAnimtor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDynamicAnimtor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9068D921A5952E006ADFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9068DB21A5952E006ADFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9068DE21A5952E006ADFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9068E021A59532006ADFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9068E321A59532006ADFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9068E521A59532006ADFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9068EA21A59532006ADFBB /* UIDynamicAnimtorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDynamicAnimtorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9068F521A59532006ADFBB /* UIDynamicAnimtorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDynamicAnimtorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9068D321A5952E006ADFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068E721A59532006ADFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068F221A59532006ADFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9068CD21A5952E006ADFBB = {
+			isa = PBXGroup;
+			children = (
+				EE9068D821A5952E006ADFBB /* UIDynamicAnimtor */,
+				EE9068D721A5952E006ADFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9068D721A5952E006ADFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9068D621A5952E006ADFBB /* UIDynamicAnimtor.app */,
+				EE9068EA21A59532006ADFBB /* UIDynamicAnimtorTests.xctest */,
+				EE9068F521A59532006ADFBB /* UIDynamicAnimtorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9068D821A5952E006ADFBB /* UIDynamicAnimtor */ = {
+			isa = PBXGroup;
+			children = (
+				EE9068D921A5952E006ADFBB /* AppDelegate.swift */,
+				EE9068DB21A5952E006ADFBB /* ViewController.swift */,
+				EE9068DD21A5952E006ADFBB /* Main.storyboard */,
+				EE9068E021A59532006ADFBB /* Assets.xcassets */,
+				EE9068E221A59532006ADFBB /* LaunchScreen.storyboard */,
+				EE9068E521A59532006ADFBB /* Info.plist */,
+			);
+			path = UIDynamicAnimtor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9068D521A5952E006ADFBB /* UIDynamicAnimtor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9068FE21A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtor" */;
+			buildPhases = (
+				EE9068D221A5952E006ADFBB /* Sources */,
+				EE9068D321A5952E006ADFBB /* Frameworks */,
+				EE9068D421A5952E006ADFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDynamicAnimtor;
+			productName = UIDynamicAnimtor;
+			productReference = EE9068D621A5952E006ADFBB /* UIDynamicAnimtor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9068E921A59532006ADFBB /* UIDynamicAnimtorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90690121A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtorTests" */;
+			buildPhases = (
+				EE9068E621A59532006ADFBB /* Sources */,
+				EE9068E721A59532006ADFBB /* Frameworks */,
+				EE9068E821A59532006ADFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9068EC21A59532006ADFBB /* PBXTargetDependency */,
+			);
+			name = UIDynamicAnimtorTests;
+			productName = UIDynamicAnimtorTests;
+			productReference = EE9068EA21A59532006ADFBB /* UIDynamicAnimtorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9068F421A59532006ADFBB /* UIDynamicAnimtorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90690421A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtorUITests" */;
+			buildPhases = (
+				EE9068F121A59532006ADFBB /* Sources */,
+				EE9068F221A59532006ADFBB /* Frameworks */,
+				EE9068F321A59532006ADFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9068F721A59532006ADFBB /* PBXTargetDependency */,
+			);
+			name = UIDynamicAnimtorUITests;
+			productName = UIDynamicAnimtorUITests;
+			productReference = EE9068F521A59532006ADFBB /* UIDynamicAnimtorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9068CE21A5952E006ADFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 2016110433;
+				TargetAttributes = {
+					EE9068D521A5952E006ADFBB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EE9068E921A59532006ADFBB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE9068D521A5952E006ADFBB;
+					};
+					EE9068F421A59532006ADFBB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE9068D521A5952E006ADFBB;
+					};
+				};
+			};
+			buildConfigurationList = EE9068D121A5952E006ADFBB /* Build configuration list for PBXProject "UIDynamicAnimtor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9068CD21A5952E006ADFBB;
+			productRefGroup = EE9068D721A5952E006ADFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9068D521A5952E006ADFBB /* UIDynamicAnimtor */,
+				EE9068E921A59532006ADFBB /* UIDynamicAnimtorTests */,
+				EE9068F421A59532006ADFBB /* UIDynamicAnimtorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9068D421A5952E006ADFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9068E421A59532006ADFBB /* LaunchScreen.storyboard in Resources */,
+				EE9068E121A59532006ADFBB /* Assets.xcassets in Resources */,
+				EE9068DF21A5952E006ADFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068E821A59532006ADFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068F321A59532006ADFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9068D221A5952E006ADFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9068DC21A5952E006ADFBB /* ViewController.swift in Sources */,
+				EE9068DA21A5952E006ADFBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068E621A59532006ADFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9068F121A59532006ADFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9068EC21A59532006ADFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9068D521A5952E006ADFBB /* UIDynamicAnimtor */;
+			targetProxy = EE9068EB21A59532006ADFBB /* PBXContainerItemProxy */;
+		};
+		EE9068F721A59532006ADFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9068D521A5952E006ADFBB /* UIDynamicAnimtor */;
+			targetProxy = EE9068F621A59532006ADFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9068DD21A5952E006ADFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9068DE21A5952E006ADFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9068E221A59532006ADFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9068E321A59532006ADFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9068FC21A59532006ADFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9068FD21A59532006ADFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9068FF21A59532006ADFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oujie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE90690021A59532006ADFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oujie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE90690221A59532006ADFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.UIDynamicAnimtorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDynamicAnimtor.app/UIDynamicAnimtor";
+			};
+			name = Debug;
+		};
+		EE90690321A59532006ADFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.UIDynamicAnimtorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDynamicAnimtor.app/UIDynamicAnimtor";
+			};
+			name = Release;
+		};
+		EE90690521A59532006ADFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.UIDynamicAnimtorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIDynamicAnimtor;
+			};
+			name = Debug;
+		};
+		EE90690621A59532006ADFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = UIDynamicAnimtorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.UIDynamicAnimtorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIDynamicAnimtor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9068D121A5952E006ADFBB /* Build configuration list for PBXProject "UIDynamicAnimtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9068FC21A59532006ADFBB /* Debug */,
+				EE9068FD21A59532006ADFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9068FE21A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9068FF21A59532006ADFBB /* Debug */,
+				EE90690021A59532006ADFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90690121A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90690221A59532006ADFBB /* Debug */,
+				EE90690321A59532006ADFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90690421A59532006ADFBB /* Build configuration list for PBXNativeTarget "UIDynamicAnimtorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90690521A59532006ADFBB /* Debug */,
+				EE90690621A59532006ADFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9068CE21A5952E006ADFBB /* Project object */;
+}
